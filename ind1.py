@@ -13,4 +13,4 @@ if __name__ == '__main__':
     v = (12, 13, 15, 14, 16, 12, 11)
     S = [(u + d + v) / 3 for u, d, v in zip(u, d, v)]
 
-print(S, sum(S) / len(S))
+    print(S, sum(S) / len(S))
